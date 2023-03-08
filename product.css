@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#big-container {
+    background-color: hsl(30, 38%, 92%);
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-weight: 450;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+}
+
+.dolar {
+    text-decoration: line-through;
+}
+button{
+    width: 240px; height: 50px;
+}
+@media screen and (max-width:375px) {
+    button {
+        width: 11em;
+        height: 3em;
+    }
+}
